@@ -1,3 +1,102 @@
 * {
-  font-family: Oswald, sans-serif;
+  font-family: Poppins, sans-serif;
+}
+
+.navbar-custom {
+  padding: 25px;
+}
+
+.logo-home, .center-navbar, .right-navbar {
+  display: inline-block;
+}
+
+.logo-home {
+  margin-right: 50px;
+}
+
+.list-item-menu {
+  list-style-type: none;
+}
+
+.list-item-menu a {
+  color: black;
+}
+
+.list-item-menu li.menu-item {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.cart-item {
+  position: relative;
+  top: -15px;
+  left: 0px;
+}
+
+.carousel-caption-custom {
+  top: 28%;
+  right: initial;
+}
+
+.carousel-caption-custom h1 {
+  font-weight: bold;
+  letter-spacing: 15px;
+  color: black;
+}
+
+.btn {
+  border-radius: 0px !important;
+}
+
+.btn-non-color {
+  background-color: rgba(255, 255, 255, 0);
+  border: 4px solid #fff;
+}
+
+.btn-full-width {
+  width: 100%;
+  padding: 10px;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.h0 {
+  font-size: 3rem !important;
+}
+
+.carousel-caption-custom_right {
+  right: 15%;
+  left: initial;
+}
+
+.dropdown-toggle::after {
+  content: initial;
+}
+
+.wd-250 {
+  width: 250px !important;
+}
+
+.wd-500 {
+  width: 500px !important;
+}
+
+.wd-750 {
+  width: 750px !important;
+}
+
+.wd-1000 {
+  width: 1000px !important;
+}
+
+.dropdown-menu-custom {
+  padding: 20px;
+}
+
+.dropdown-menu-custom .col-sm:not(:last-child) {
+  border-right: 1px solid #DDE;
+}
+
+a:hover {
+  cursor: pointer;
 }
